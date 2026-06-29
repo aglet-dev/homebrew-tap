@@ -2,13 +2,13 @@
 class Aglet < Formula
   desc "Agent-first aglet runtime CLI (dev / CI / authoring tool)"
   homepage "https://github.com/aglet-dev/aglet"
-  url "https://github.com/aglet-dev/homebrew-tap/releases/download/aglet-v0.1.0/aglet-cli-0.1.0-aarch64-apple-darwin.tar.gz"
-  version "0.1.0"
-  sha256 "bdbc32b3ee8f62170df63c05525a85f2a84a67deb1c5c87a1733cf55358c91cc"
+  url "https://github.com/aglet-dev/homebrew-tap/releases/download/aglet-v0.1.1/aglet-cli-0.1.1-universal-apple-darwin.tar.gz"
+  version "0.1.1"
+  sha256 "5f9bd36f413a351321254380938360c89b5a6ba906b2aec5025268113fec0ed9"
   license "MIT"
 
   depends_on :macos
-  depends_on arch: :arm64
+  # universal binary（arm64 + Intel x86_64，package.sh lipo 合成）→ 不限 arch。
 
   def install
     # Tarball has  at root; Homebrew auto-cds into the single
