@@ -2,9 +2,9 @@
 class Aglet < Formula
   desc "Agent-first aglet runtime CLI (dev / CI / authoring tool)"
   homepage "https://github.com/aglet-dev/aglet"
-  url "https://github.com/aglet-dev/homebrew-tap/releases/download/aglet-v0.1.4/aglet-cli-0.1.4-universal-apple-darwin.tar.gz"
-  version "0.1.4"
-  sha256 "7925ecfe96323e9a4ec2230b8c9554753748c59630ab8facb20b2b98c66ab5d1"
+  url "https://github.com/aglet-dev/homebrew-tap/releases/download/aglet-v0.1.5/aglet-cli-0.1.5-universal-apple-darwin.tar.gz"
+  version "0.1.5"
+  sha256 "3e32c192e2a6c970c15d43e4c1ead27ef448a0b159c1307b81c3664957b75699"
   license "MIT"
 
   depends_on :macos
