@@ -4,7 +4,7 @@ class Aglet < Formula
   homepage "https://github.com/aglet-dev/aglet"
   url "https://github.com/aglet-dev/homebrew-tap/releases/download/aglet-v0.1.9/aglet-cli-0.1.9-universal-apple-darwin.tar.gz"
   version "0.1.9"
-  sha256 "0486bf08ce8bf60cfe5f2d1a5f10dfa9f8275d55541bbed5f8dc7d31fd1501b3"
+  sha256 "e6695922570af04efd4bd2f6c9d56b809d9d44f464c992264e08cf2df7b47a25"
   license "MIT"
 
   depends_on :macos
